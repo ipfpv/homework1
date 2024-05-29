@@ -1,6 +1,5 @@
-num1 = 5
-num2 = 3
-sum = num1 + num2
-print(sum)
-result = sum + num1 * num2
-print(result)
+completed_tasks = 12
+hours_spent = 1.5
+course_name = 'Python'
+time_task = hours_spent/completed_tasks
+print('Курс:', course_name, 'всего задач:', completed_tasks, 'затрачено часов:', hours_spent, 'среднее время выполнения', time_task, 'часа')
